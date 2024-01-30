@@ -1,0 +1,35 @@
+----------------------------------------------------------------------
+==> [RQ3 - Section 4.3] Effectiveness of Language Models on Automated Naturalness Assessment of Code Transformations
+==> Statistical Tests
+MWW on model N-gram: p-value: 0.017542788163699696, effect size: 0.09310219882907111
+MWW on model N-gram: p-value: 0.28052019527127264, effect size: 0.08240740740740737
+MWW on model N-gram: p-value: 0.7205821565728501, effect size: -0.08240740740740748
+Spearman Correlation on model N-gram: 0.9576932434482787
+MWW on model GPTNeo: p-value: 1.4963765232616821e-05, effect size: 0.18439905664575273
+MWW on model GPTNeo: p-value: 0.2838373193044469, effect size: 0.08101851851851849
+MWW on model GPTNeo: p-value: 0.717271320127721, effect size: -0.0810185185185186
+Spearman Correlation on model GPTNeo: 0.993350429039128
+MWW on model BLOOM: p-value: 3.316762971878426e-13, effect size: 0.31749210163307084
+MWW on model BLOOM: p-value: 0.3636281736730704, effect size: 0.049537037037037046
+MWW on model BLOOM: p-value: 0.6376005242177605, effect size: -0.049537037037036935
+Spearman Correlation on model BLOOM: 0.9905664993284197
+MWW on model CodeLlama: p-value: 6.039549992583162e-19, effect size: 0.3893751867320149
+MWW on model CodeLlama: p-value: 0.5925679840204507, effect size: -0.03287037037037033
+MWW on model CodeLlama: p-value: 0.40870366930763025, effect size: 0.03287037037037033
+Spearman Correlation on model CodeLlama: 0.9909691947991727
+==> Box-Plot of CE (Figures 3a): Please see results in data/figures/rq3_ce.png
+==> Box-Plot of RNC (Figures 3b):Please see results in data/figures/rq3_rnc.png
+==> Box-Plot of NC (Figures 3b):Please see results in data/figures/rq3_rnc.png
+==> Classification Results - Table 7
+[RNC] AUC of N-gram: 0.5465510994145355
+[RNC] AUC of GPTNeo: 0.5921995283228763
+[RNC] AUC of BLOOM: 0.6587460508165354
+[RNC] AUC of CodeLlama: 0.6946875933660075
+[NC] AUC of N-gram: 0.5429912720661618
+[NC] AUC of GPTNeo: 0.5618774275161941
+[NC] AUC of BLOOM: 0.6247115586322635
+[NC] AUC of CodeLlama: 0.6284684478517077
+[CE] AUC of N-gram: 0.48912027766653315
+[CE] AUC of GPTNeo: 0.39891361697529104
+[CE] AUC of BLOOM: 0.42401993503315083
+[CE] AUC of CodeLlama: 0.4042247522423734

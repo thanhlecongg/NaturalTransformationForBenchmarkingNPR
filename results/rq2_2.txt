@@ -1,0 +1,92 @@
+----------------------------------------------------------------------
+==> [RQ2.2 - Section 4.2.2] Impact of Unnatural Code Transformations on Robustness Testing
+============ Transformation: alpharepair ============
+== Performance on Original Data ==
+Plausible Rate: 64/212 (30.2)
+Correct Rate: 29/212 (13.7)
+== Performance on Transformed Data ==
+Plausible Rate: 62.59880952380952/212 (29.5)
+Correct Rate: 26.03690476190476/212 (12.3)
+0.02189360119047623
+0.10217569786535308
+== Unique Change Rate ==
+Positve: 18/212 (8.5)
+including: {'Time-19', 'Lang-22', 'JacksonDatabind-93', 'JacksonDatabind-49', 'Csv-15', 'Closure-11', 'Mockito-38', 'Closure-18', 'Jsoup-45', 'JacksonCore-4', 'JacksonCore-25', 'Closure-38', 'Jsoup-51', 'Math-94', 'Compress-23', 'Codec-9', 'JacksonDatabind-102', 'JacksonDatabind-16'}
+Negative: 18/212 (8.5)
+including: {'Cli-32', 'Math-82', 'JxPath-5', 'Closure-73', 'Lang-59', 'Closure-159', 'Jsoup-57', 'JacksonDatabind-96', 'Compress-14', 'Math-41', 'Lang-57', 'Lang-33', 'Cli-8', 'Lang-58', 'Lang-61', 'Csv-11', 'Csv-5', 'Closure-57'}
+Change Rate: 36/212 (17.0)
+Total Positive Change: 43(6.2%)
+Total Negative Change: 48(6.9%)
+Total Change: 91(13.1%)
+============ Transformation: recoder ============
+== Performance on Original Data ==
+Plausible Rate: 50/212 (23.6)
+Correct Rate: 32/212 (15.1)
+== Performance on Transformed Data ==
+Plausible Rate: 47.973809523809514/212 (22.6)
+Correct Rate: 30.05357142857143/212 (14.2)
+0.04052380952380974
+0.060825892857142794
+== Unique Change Rate ==
+Positve: 12/212 (5.7)
+including: {'Lang-26', 'Compress-19', 'Lang-57', 'Lang-22', 'Csv-15', 'Closure-38', 'Math-82', 'Math-57', 'Math-33', 'Csv-14', 'Csv-11', 'Jsoup-68'}
+Negative: 17/212 (8.0)
+including: {'Chart-11', 'Closure-152', 'Closure-73', 'JacksonCore-5', 'Chart-9', 'Closure-18', 'Gson-13', 'Compress-19', 'Closure-14', 'Math-41', 'Closure-126', 'Math-50', 'JacksonCore-25', 'Closure-109', 'Closure-125', 'Codec-9', 'Closure-57'}
+Change Rate: 28/212 (13.2)
+Total Positive Change: 23(3.3%)
+Total Negative Change: 29(4.2%)
+Total Change: 52(7.5%)
+============ Transformation: sequencer ============
+== Performance on Original Data ==
+Plausible Rate: 40/212 (18.9)
+Correct Rate: 20/212 (9.4)
+== Performance on Transformed Data ==
+Plausible Rate: 34.32738095238095/212 (16.2)
+Correct Rate: 15.416666666666666/212 (7.3)
+0.1418154761904763
+0.22916666666666674
+== Unique Change Rate ==
+Positve: 5/212 (2.4)
+including: {'Jsoup-77', 'Jsoup-33', 'Time-4', 'JacksonDatabind-16', 'Math-32'}
+Negative: 13/212 (6.1)
+including: {'Math-58', 'Closure-62', 'Csv-15', 'Closure-38', 'Mockito-22', 'Closure-168', 'Codec-2', 'Closure-73', 'Closure-70', 'Math-30', 'Closure-125', 'Chart-9', 'Compress-19'}
+Change Rate: 18/212 (8.5)
+Total Positive Change: 10(1.4%)
+Total Negative Change: 37(5.3%)
+Total Change: 47(6.8%)
+============ Transformation: selfapr ============
+== Performance on Original Data ==
+Plausible Rate: 54/212 (25.5)
+Correct Rate: 30/212 (14.2)
+== Performance on Transformed Data ==
+Plausible Rate: 46.72142857142857/212 (22.0)
+Correct Rate: 23.82023809523809/212 (11.2)
+0.1347883597883599
+0.20599206349206367
+== Unique Change Rate ==
+Positve: 18/212 (8.5)
+including: {'Mockito-29', 'Lang-22', 'Math-82', 'Mockito-38', 'Lang-59', 'Chart-9', 'Closure-104', 'JacksonDatabind-12', 'Jsoup-45', 'Math-50', 'Chart-24', 'Jsoup-51', 'Compress-23', 'Math-33', 'Closure-125', 'Math-63', 'JacksonDatabind-102', 'Closure-46'}
+Negative: 30/212 (14.2)
+including: {'Time-19', 'Chart-11', 'JacksonDatabind-27', 'Math-82', 'Closure-73', 'Mockito-38', 'Math-32', 'Jsoup-54', 'Csv-14', 'Math-11', 'Closure-18', 'JacksonDatabind-57', 'Compress-19', 'Closure-113', 'Math-75', 'Compress-14', 'Math-41', 'Math-80', 'Lang-33', 'JacksonCore-25', 'Lang-57', 'Closure-38', 'Math-94', 'Jsoup-41', 'Lang-58', 'Math-57', 'Gson-6', 'Closure-10', 'Csv-5', 'Closure-57'}
+Change Rate: 46/212 (21.7)
+Total Positive Change: 27(3.9%)
+Total Negative Change: 52(7.5%)
+Total Change: 79(11.4%)
+============ Transformation: rewardrepair ============
+== Performance on Original Data ==
+Plausible Rate: 71/212 (33.5)
+Correct Rate: 43/212 (20.3)
+== Performance on Transformed Data ==
+Plausible Rate: 61.05119047619048/212 (28.8)
+Correct Rate: 32.845238095238095/212 (15.5)
+0.14012407780013414
+0.2361572535991141
+== Unique Change Rate ==
+Positve: 16/212 (7.5)
+including: {'Mockito-29', 'Cli-25', 'JacksonDatabind-70', 'JacksonDatabind-27', 'Closure-70', 'JacksonDatabind-76', 'Gson-13', 'Compress-14', 'Jsoup-77', 'JacksonCore-4', 'Math-80', 'Chart-24', 'Jsoup-46', 'Lang-58', 'JacksonDatabind-102', 'JacksonDatabind-16'}
+Negative: 36/212 (17.0)
+including: {'Chart-1', 'Time-19', 'Closure-62', 'JacksonDatabind-93', 'Cli-32', 'Math-82', 'Closure-11', 'Jsoup-26', 'Lang-59', 'Chart-12', 'Math-11', 'Closure-104', 'JacksonDatabind-12', 'Math-41', 'Lang-6', 'Jsoup-51', 'Closure-38', 'Codec-2', 'Gson-6', 'Closure-10', 'Csv-11', 'JacksonDatabind-102', 'Mockito-5', 'Lang-26', 'Csv-15', 'Closure-73', 'JacksonCore-5', 'Csv-14', 'Closure-18', 'JacksonDatabind-57', 'Math-80', 'Lang-33', 'JacksonCore-25', 'Math-94', 'Mockito-34', 'Math-63'}
+Change Rate: 50/212 (23.6)
+Total Positive Change: 34(4.9%)
+Total Negative Change: 72(10.4%)
+Total Change: 106(15.3%)

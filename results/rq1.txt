@@ -1,0 +1,57 @@
+----------------------------------------------------------------------
+==> [RQ1.1 - Section 4.1.2] Completion Time
+=> Overal
++ 99% Percentile: 140.93
++ Average: 15.227662493568856
++ STD: 14.690267294644299
+=> Table 1: Time taken by different transformation levels
++++ Naming-leve;
++ Average Naming-level Completion Time: 14.60453452115813
++ STD Naming-level Completion Time: 14.766204726389134
+++++++
++++ Expression-level:
++ Average Expression-level Completion Time: 16.863041775456917
++ STD Expression-level Completion Time: 14.502529896010481
+++++++
++++ Statement-level:
++ Average Statement-level Completion Time: 17.91486956521739
++ STD Statement-level Completion Time: 13.849989368397576
+++++++
++++ Statistical Tests:
+MWW Test: p-value: 4.40294867852924e-12, effect size: 0.21750028380065844
+MWW Test: p-value: 1.0755542497342731e-62, effect size: 0.42634492108066235
+MWW Test: p-value: 6.817563213771812e-43, effect size: 0.30875313286851547
+++++++
+=> Table 2: Time taken by high agreement vs high disgareement cases
++++ Agreement:
+Average time for agreement: 14.941186663742048
+STD time for agreement: 14.017714535175823
+++++++
++++ Disagreement:
+Average time for disagreement: 16.254426100628933
+STD time for disagreement: 16.842102851016687
+++++++
++++ Statistical Tests:
+MWW Test: p-value: 0.04697514166351055, effect size: 0.030666585273996683
+----------------------------------------------------------------------
+==> [RQ1.2 - Section 4.1.3] Agreement
+=> Overall Agreement
++ Data points that are considered as natural by a all annotators: 349(29.63%)
++ Data points that are considered as unnatural by a all annotators: 44(3.74%)
++ Data points that are considered as natural by a 4/5 annotators: 693(58.83%)
++ Data points that are considered as unnatural by a 4/5 annotators: 227(19.27%)
++ Data points that are considered as natural by a 3/5 annotators: 18(1.53%)
++ Data points that are considered as unnatural by a 3/5 annotators: 240(20.37%)
++ Data points that are considered as not natural by a majority of Annotators: 39.64%
++ Data points that are considered as not natural by a at least one of Annotators: 70.37%
+=> Inter-rater Agreement Metrics
+(5, 1178)
++ Fleiss's agreement: 0.32
+----------------------------------------------------------------------
+==> [RQ1.3 - Section 4.1.4] Naturalness Ratio
+=> Table 3: Naturalness Ratio
++ Naming-level: [143 194  12 557]
++ Expression-level: [ 11  36   4 104]
++ Statement-level: [73 10  2 32]
++ Full-level: [227 240  18 693]
+=> Please see results in data/figures/rq1_naturalness.png
