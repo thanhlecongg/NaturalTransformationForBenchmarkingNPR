@@ -1,0 +1,10 @@
+tree-sitter-c
+tree-sitter-cpp
+tree-sitter-java
+tree-sitter-python
+tree_sitter_assets
+results/*
+logs/*
+data/*
+libs/*
+script.sh
