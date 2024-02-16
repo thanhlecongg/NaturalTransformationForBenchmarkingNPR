@@ -44,7 +44,7 @@ Data collected from our human study is in the `human_study` folder. Particularly
     ```
 ### List of Defects4J bugs used in this study:
 In this work, we used the following 225 bugs from the Defects4J dataset:
-\begin{itemize}
+```
     - Chart: 1, 3, 6, 8, 9, 10, 11, 12, 13, 17, 20, 24
     - Cli: 4, 5, 8, 11, 25, 32
     - Closure: 10, 11, 14, 18, 20, 35, 38, 46, 51, 52, 55, 57, 62, 65, 70, 71, 73, 77, 81, 83, 92, 97, 104, 109, 111, 113, 122, 123, 124, 125, 126, 130, 132, 133, 150, 152, 159, 168 
@@ -61,6 +61,8 @@ In this work, we used the following 225 bugs from the Defects4J dataset:
     - Math: 9, 11, 17, 30, 32, 33, 41, 45, 50, 53, 56, 57, 58, 59, 63, 69, 70, 75, 80, 82, 85, 89, 91, 94, 96, 101
     - Mockito: 5, 12, 18, 22, 27, 28, 29, 33, 34, 38
     - Time: 4, 14, 15, 16, 19, 24
+```
+
 #### Repair Data
 Data collected from our repair experiments is in the `data/plausible_patches` folder. Particularly:
 - Naming Format: `{transformation_level}-{repair_tool}.xlsx`
