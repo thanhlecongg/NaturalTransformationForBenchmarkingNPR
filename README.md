@@ -42,7 +42,25 @@ Data collected from our human study is in the `human_study` folder. Particularly
         ...
     }
     ```
-
+### List of Defects4J bugs used in this study:
+In this work, we used the following 225 bugs from the Defects4J dataset:
+\begin{itemize}
+    - Chart: 1, 3, 6, 8, 9, 10, 11, 12, 13, 17, 20, 24
+    - Cli: 4, 5, 8, 11, 25, 32
+    - Closure: 10, 11, 14, 18, 20, 35, 38, 46, 51, 52, 55, 57, 62, 65, 70, 71, 73, 77, 81, 83, 92, 97, 104, 109, 111, 113, 122, 123, 124, 125, 126, 130, 132, 133, 150, 152, 159, 168 
+    - Codec: 2, 3, 7, 9, 10, 17, 18 
+    - Compress: 5, 12, 13, 14, 19, 23, 26, 27, 31, 36, 37, 38, 45, 46
+    - Csv: 1, 2, 3, 5, 6, 9, 11, 14, 15
+    - Gson: 6, 10, 11, 12, 13, 15, 17 
+    - JacksonCore: 3, 4, 5, 6, 8, 25, 26 
+    - JacksonDatabind: 5, 12, 16, 17, 19, 27, 33, 34, 37, 39, 45, 46, 49, 51, 57, 58, 70, 71, 76, 82, 88, 93, 96, 97, 98, 99, 102 
+    - JacksonXml: 4, 5
+    - Jsoup: 1, 10, 13, 19, 26, 27, 32, 33, 34, 37, 40, 41, 43, 45, 46, 47, 49, 51, 54, 57, 61, 68, 75, 77, 84, 86
+    - JxPath: 5, 8, 10, 12
+    - Lang: 6, 9, 14, 16, 21, 22, 24, 26, 28, 29, 33, 37, 38, 39, 40, 43, 44, 49, 52, 54, 57, 58, 59, 61
+    - Math: 9, 11, 17, 30, 32, 33, 41, 45, 50, 53, 56, 57, 58, 59, 63, 69, 70, 75, 80, 82, 85, 89, 91, 94, 96, 101
+    - Mockito: 5, 12, 18, 22, 27, 28, 29, 33, 34, 38
+    - Time: 4, 14, 15, 16, 19, 24
 #### Repair Data
 Data collected from our repair experiments is in the `data/plausible_patches` folder. Particularly:
 - Naming Format: `{transformation_level}-{repair_tool}.xlsx`
