@@ -1,6 +1,6 @@
 ## Robustness meets Naturalness: An Empirical Study on Neural Program Repair
 
-This repository contains the data and code for the paper "Robustness meets Naturalness: An Empirical Study on Neural Program Repair" (submitted to ACM Transactions on Software Engineering and Methodology).
+This repository contains the data and code for the paper "Evaluating Program Repair with Semantic-Preserving Transformations: A Naturalness Assessment" (submitted to ACM Transactions on Software Engineering and Methodology).
 ### Data
 Our data is published using Figshare, please download data from [here](https://figshare.com/s/05c50e7e0bd021ed16b3) and put it into the folder data before running experiments.
 
