@@ -10,12 +10,9 @@ This project is develop using Java 8 in [IntelliJ IDEA Ultimate](https://www.jet
 
 To build this repository from scratch, please do following steps:
 
-- Download dependencies from the [link]()
+- Download dependencies from the [link](https://figshare.com/s/05c50e7e0bd021ed16b3)
 - Import module dependencies following [IntelliJ guidelines](https://www.jetbrains.com/help/idea/working-with-module-dependencies.html)
 - Build artifact following [IntelliJ guidelines](https://www.jetbrains.com/help/idea/compiling-applications.html#package_into_jar)
-
-### Executable package
-Our executable package with dependencies can be found in this [link]()
 
 ## Usage
 To run our tool for Defects4J dataset, please do the following steps:
