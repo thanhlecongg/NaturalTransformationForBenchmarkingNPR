@@ -8,11 +8,15 @@ This project is developed using Java 8 in [IntelliJ IDEA Ultimate](https://www.j
 
 ### Build & Dependencies
 
-To build this repository from scratch, please do following steps:
+### For Java (module `core`)
+To build the core module from scratch, please do following steps:
 
 - Download dependencies from the [link](https://figshare.com/s/05c50e7e0bd021ed16b3)
 - Import module dependencies following [IntelliJ guidelines](https://www.jetbrains.com/help/idea/working-with-module-dependencies.html)
 - Build artifact following [IntelliJ guidelines](https://www.jetbrains.com/help/idea/compiling-applications.html#package_into_jar)
+
+### For Python
+Please use `enviroment.yml` for creating `conda` enviroment
 
 ## Usage
 To run our tool for Defects4J dataset, please do the following steps:
