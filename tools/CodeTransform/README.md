@@ -4,7 +4,7 @@ This repository implement a tool that transforms Java code snippets for generati
 ## Environment and Setup
 
 ### IDE
-This project is develop using Java 8 in [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/business/). If you want to play with the code, please use the same Java version and IDE. Otherwise, you can use our executable package. 
+This project is developed using Java 8 in [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/business/). If you wish to experiment with the code, please ensure you're using the same Java version and IDE. I intend to refactor this code using Maven for enhanced convenience and reliability when my schedule permits. If you've already done this, a pull request would be greatly appreciated.
 
 ### Build & Dependencies
 
