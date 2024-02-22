@@ -22,7 +22,7 @@ cffi=1.15.1=py310h5eee18b_3
 charset-normalizer=2.0.4=pyhd3eb1b0_0
 click=8.1.7=pypi_0
 cpuonly=2.0=0
-cryptography=41.0.3=py310hdda0065_0
+cryptography=42.0.4
 datasets=2.14.5=pypi_0
 dill=0.3.7=pypi_0
 evaluate=0.4.0=pypi_0
