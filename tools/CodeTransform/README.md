@@ -34,3 +34,5 @@ To run our tool for Defects4J dataset, please do the following steps:
     3.2. python3 -m postprocess.apply_transform //Apply transformed methods to original files + update associating metadata
 ```
 
+## Note
+Currently, this tool is not fully automated and might necessitate some manual efforts. Specifically, the `fill_mask` post-processing stage relies on signatures to pinpoint the modified faulty line. Regrettably, the core engine occasionally omits these signatures, resulting in errors. To mitigate this, I've manually added the missing signatures when conducting experiments as there are only not many cases. I plan to rectify this issue asap to achieve a fully automated solution once my schedule allows. 
